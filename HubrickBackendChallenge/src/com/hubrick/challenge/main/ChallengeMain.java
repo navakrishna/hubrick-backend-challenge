@@ -33,6 +33,7 @@ public static void main(String[] args) {
 	    ChallengeDelegator delegator = new ChallengeDelegator();
 	    try {
 			delegator.delegateChallenge(args[0], args[1], args[2]);
+			System.out.println("Please find the output files in output folder of project");
 		} catch (IOException e) {
 			e.getMessage();
 		}
